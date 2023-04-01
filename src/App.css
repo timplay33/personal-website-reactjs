@@ -52,16 +52,17 @@ a:hover{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 700px;
+  height: 75vh;
 }
 
 .welcome_content{
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin: 300px auto;
+  margin: 25vh auto;
   max-width: 920px;
   text-align: center;
+  line-height: 5vh;
 
 }
 
@@ -74,8 +75,20 @@ a:hover{
 
 }
 
+.repos{
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.repos h2{
+  font-size: 1.3rem;
+}
+
 .footer{
-  background-color: aqua;
+  background-color: #080808;
   padding: 20px;
 }
 .footer_link_list{

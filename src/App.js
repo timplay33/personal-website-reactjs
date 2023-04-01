@@ -55,13 +55,32 @@ function Home() {
 function Projects(){
   return (
     <div className="projects" id="projects">
-      <div className="projects_content">
         <h1 className="projects_primary">Projects</h1>
-        <p className="projects_secondary">This is the projects page</p>
-      </div>
+        <ul className='repos'>
+          <li>  
+            <div className='JavaTicTacToe' class="repo">
+              <a href='https://github.com/timplay33/JavaTicTacToe'><h2>JavaTicTacToe</h2></a>
+              <p>A simple TicTacToe game programmed in Java</p>
+            </div>
+          </li>
+          <li>
+            <div className='Wer-Wird-Millionaer-Minigame-Visual-Basic' class="repo">
+              <a href='https://github.com/timplay33/Wer-Wird-Millionaer-Minigame-Visual-Basic'><h2>Wer-Wird-Millionaer-Minigame-Visual-Basic</h2></a>
+              <p>Wer Wird Millionär in Visual Basic</p>
+            </div>
+          </li>
+          <li>  
+            <div className='Rechner'>
+              <a href='https://github.com/timplay33/Rechner' class="repo"><h2>Rechner</h2></a>
+              <p>Small calculator program, which I create in computer science class</p>
+            </div>
+          </li>
+          
+        </ul>
     </div>
   );
 }
+
 
 function About() {
   return (
