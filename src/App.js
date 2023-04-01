@@ -97,8 +97,8 @@ function Footer() {
   return (
     <div className="footer">
       <ul class="footer_link_list">
-        <li><span>Instagram</span></li>
-        <li><span>GitHub</span></li>
+        <li><a href="https://www.instagram.com/tim.0409/">Instagram</a></li>
+        <li><a href="https://github.com/timplay33">Github</a></li>
       </ul>
       <p>Copyright © 2023 Tim Heidler</p>
     </div>

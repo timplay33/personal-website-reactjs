@@ -1,3 +1,10 @@
+:root{
+  --color-headline: white !important;
+  --color-text: gray!important;
+  --color-background: #161616 !important;
+  --color-background-accent: #080808!important;
+}
+
 .App {
   text-align: center;
 
@@ -5,8 +12,8 @@
   height: 100%;
   margin: 0px;
 
-  background-color: #161616;
-  color: white;
+  background-color: var(--color-background);
+  color:var(--color-text);
 
   font-family: Poppins,sans-serif;
   font-size: 1rem;
@@ -14,10 +21,22 @@
   text-rendering: optimizespeed;
 }
 
+h1{
+  color: var(--color-headline);
+}
+
+h2{
+  color: var(--color-headline);
+  font-size: 1.2rem;
+}
 
 a{
   text-decoration: none;
-  color: white;
+  color: var(--color-text);
+}
+
+.header a{
+  color: var(--color-headline);
 }
 
 a:hover{
@@ -25,19 +44,23 @@ a:hover{
 }
 
 
+
 .header{
   display: flex;
   flex-basis: content;
   justify-content: center;
-  gap: 20px;
+
 }
 
 .header_link_list{
   display: flex;
   justify-content: flex-start;
-  gap: 20px;
   list-style-type: none;
   flex-basis: 75%;
+}
+.header_link_list li{
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .header_logo_element{
@@ -56,6 +79,7 @@ a:hover{
 }
 
 .welcome_content{
+  color: var(--color-headline);
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -80,21 +104,24 @@ a:hover{
   list-style-type: none;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 50px;
+
 }
 
-.repos h2{
-  font-size: 1.3rem;
+.repos li{
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .footer{
-  background-color: #080808;
+  background-color: var(--color-background-accent);
   padding: 20px;
 }
 .footer_link_list{
   display: flex;
   justify-content: center;
-  align-self: flex-start;
-  gap: 20px;
   list-style-type: none;
+}
+.footer_link_list li{
+  margin-left: 10px;
+  margin-right: 10px;
 }
