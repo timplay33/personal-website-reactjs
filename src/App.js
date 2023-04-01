@@ -46,7 +46,7 @@ function Home() {
     <div className="home" id="home">
       <div className="home_content">
         <h1 className="home_primary">Home</h1>
-        <p className="home_secondary">This is the home page</p>
+        <p className="home_secondary">In the near future a cool website will be build right here!</p>
       </div>
     </div>
   );
@@ -86,8 +86,11 @@ function About() {
   return (
     <div className="about" id="about">
       <div className="about_content">
-        <h1 className="about_primary">About</h1>
-        <p className="about_secondary">This is the about page</p>
+        <h1 className="about_primary">About Me</h1>
+        <p className="about_secondary">
+          <p>Hi, I'm Tim!</p>
+          <p>Born in 2006, I've always been interested in programming since I was 12 years old.<br></br>My GitHub Projects can be seen at either <a href="https://github.com/timplay33">my GitHub page</a> or directly on this page at <a href="#projects">projects</a>.</p>
+        </p>
       </div>
     </div>
   );
