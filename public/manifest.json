@@ -1,0 +1,15 @@
+{
+  "short_name": "Tim Heidler",
+  "name": "Personal Website of Tim Heidler",
+  "icons": [
+    {
+      "src": "TH.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#161616"
+}
